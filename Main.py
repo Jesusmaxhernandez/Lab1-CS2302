@@ -47,11 +47,11 @@ def process_dir(path, cat_list, dog_list):
 #    if count == 5:
 #        print ("Every full path of every dog image:" )
 #        for x in range(len(dog_list)): 
-#            print (path + dog_list[x][1:])
+#            print (dog_list[x][1:])
 #        print()
 #        print ("Every full path of every cat image:" )
 #        for x in range(len(cat_list)): 
-#            print (path + cat_list[x][1:])
+#            print (cat_list[x][1:])
     count = count + 1
     return cat_list, dog_list
     
